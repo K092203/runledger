@@ -206,6 +206,9 @@ Examples: [examples/hello](examples/hello) (pure Python),
 
 ## Pairs with review-artifact
 
+[review-artifact](https://github.com/K092203/review-artifact) runs a read-only AI
+triage over the snapshots runledger produces:
+
 ```bash
 runledger run -- ./solver < input.txt
 review-artifact logs runs/latest      # read-only AI triage of the snapshot
